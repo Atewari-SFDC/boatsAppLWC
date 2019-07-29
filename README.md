@@ -1,2 +1,2 @@
 # boatsApp
-BoatsApp(Aura Superbadge) LWC
+BoatsApp(Aura Superbadge) refactored using Lightning Web Components
