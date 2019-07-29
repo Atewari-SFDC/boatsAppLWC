@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BoatSearchFormController</members>
+        <members>BoatSearchResults</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Boat__c</members>
+        <members>BoatType__c</members>
+        <name>Custom Object</name>
+    </types>
+    <types>
+        <mambers>Boat__c-Boat Layout</members>
+        <members>BoatType__c-Boat Type Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>46.0</version>
+</Package>
