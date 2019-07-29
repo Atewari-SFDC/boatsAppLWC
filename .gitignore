@@ -1,0 +1,34 @@
+.idea
+.project
+*.sublime-project
+*.sublime-workspace
+config/
+apex-scripts/
+resource-bundles/
+debug/
+".settings/com.salesforce.ide.core.prefs"
+.vim-force.com/
+.DS_Store
+# Do not commit Salesforce Extensions for VS Code - specific files
+# (SFDX for non-scratch orgs)
+.sfdx/tools/*.db
+settings.json
+.sfdx/typings/**
+.vscode
+.forceCode
+.sfdx/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+.eslintcache
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+README.md
+.forceignore
+.prettierrc
+.prettierignore
