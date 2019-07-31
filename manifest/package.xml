@@ -15,11 +15,13 @@
     <types>
         <members>Boat__c</members>
         <members>BoatType__c</members>
+        <members>BoatReview__c</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>Boat__c-Boat Layout</members>
         <members>BoatType__c-Boat Type Layout</members>
+        <members>BoatReview__c-BoatReview Layout</members>
         <name>Layout</name>
     </types>
     <version>46.0</version>
