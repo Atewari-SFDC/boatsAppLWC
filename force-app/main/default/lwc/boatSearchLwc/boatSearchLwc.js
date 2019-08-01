@@ -7,7 +7,6 @@ export default class BoatSearchLwc extends LightningElement {
         this.boatTypeId = event.detail;
     }
 
-
 }
 
 //to do

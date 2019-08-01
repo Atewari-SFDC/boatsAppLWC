@@ -5,7 +5,7 @@ public with sharing class BoatSearchResults
     {
         String query = 'SELECT Name, BoatType__c, Contact__c, ' +
                                'Description__c, Geolocation__latitude__s, Geolocation__longitude__s, '+
-                               'Length__c, Year_Built__c, Picture__c, Price__c ' +
+                               'Length__c, Year_Built__c, Picture__c, Price__c, Contact__r.Name ' +
                        'FROM   Boat__c ';
         if (!String.isEmpty(boatTypeId))
         {

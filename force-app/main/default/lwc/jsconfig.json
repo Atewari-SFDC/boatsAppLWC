@@ -2,7 +2,38 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/boatSearchResultsLwc": [
+                "boatSearchResultsLwc/boatSearchResultsLwc.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/boatSearchFormLwc": [
+                "boatSearchFormLwc/boatSearchFormLwc.js"
+            ],
+            "c/boatSearchLwc": [
+                "boatSearchLwc/boatSearchLwc.js"
+            ],
+            "c/boatTileLwc": [
+                "boatTileLwc/boatTileLwc.js"
+            ],
+            "c/boatDetailLwc": [
+                "boatDetailLwc/boatDetailLwc.js"
+            ],
+            "c/boatDetailsLwc": [
+                "boatDetailsLwc/boatDetailsLwc.js"
+            ],
+            "c/addBoatReviewLwc": [
+                "addBoatReviewLwc/addBoatReviewLwc.js"
+            ],
+            "c/boatReviewsLwc": [
+                "boatReviewsLwc/boatReviewsLwc.js"
+            ],
+            "c/fiveStarRatingLwc": [
+                "fiveStarRatingLwc/fiveStarRatingLwc.js"
+            ]
+        }
     },
     "include": [
         "**/*",
