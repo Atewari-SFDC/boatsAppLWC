@@ -9,6 +9,9 @@
                             <option key={type.value} value={type.value}>{type.label}</option>
                         </template>
                     </select>
+                    <div class="slds-m-left--small" style="width:100%">
+                        <lightning-button label="Add Boat" onclick={addBoat} variant="brand"></lightning-button>
+                    </div>
                 </div>
             </lightning-layout-item>
         </lightning-layout>
