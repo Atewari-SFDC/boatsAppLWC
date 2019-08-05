@@ -1,8 +1,9 @@
 import { LightningElement, track, wire } from 'lwc';
 import { getListUi } from 'lightning/uiListApi';
 import BOAT_TYPE_OBJECT from '@salesforce/schema/BoatType__c';
+import { NavigationMixin } from 'lightning/navigation';
 
-export default class BoatSearchFormLwc extends LightningElement {
+export default class BoatSearchFormLwc extends NavigationMixin(LightningElement) {
     @track boatTypes = [];
     @wire(getListUi, { objectApiName: BOAT_TYPE_OBJECT, listViewApiName: 'All' })
     loadBoatTypes({ error, data }) {
@@ -25,6 +26,16 @@ export default class BoatSearchFormLwc extends LightningElement {
             detail: event.target.value,
         });
         this.dispatchEvent(customEvent);
+    }
+
+    addBoat() {
+        this[NavigationMixin.Navigate]({
+            type: 'standard__objectPage',
+            attributes: {
+                objectApiName: 'Boat__c',
+                actionName: 'new'
+            }
+        });
     }
 
 }
